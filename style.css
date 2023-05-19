@@ -1,0 +1,216 @@
+  /* Kullanılan Fontun Eklenmesi */
+
+  @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+ 
+
+  /* Temel CSS Kodları Başlangıcı */
+  * {
+      margin: 0;
+    }
+  
+  body {
+      font-family: 'Electrolize', sans-serif;
+      background-image:url(İmg/blurry-gradient-haikei.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  
+  .container {
+      background-color: black;
+      color: white;
+  }
+  /* ! Tememl CSS Kodlarının Bitişi */
+@media screen and (min-width:1366px) {
+
+}
+
+  
+  /*NAVBAR BAŞLANGICI */
+   .navbar {
+      background-color: #000;
+      height: 50px;
+      color: white;
+      position: sticky; 
+      top: 0;
+      z-index: 1;
+      display: block;
+  }
+  
+  .navbar-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+      padding: 0 50px;
+  }
+  
+  .logo {
+      font-size: 30px;
+       color: #ffffff;
+  }
+  
+  .menu-list {
+      display: flex;
+      list-style: none;
+      column-gap: 30px;
+      padding: 0;
+  }
+  
+  
+  .menu-list-item {
+      cursor: pointer;
+  }
+  
+  
+  .menu-list-item:hover {
+      font-weight: bold;
+  
+  }
+  
+  .menu-list-item.active {
+      font-weight: bold;
+  }
+  
+  .profile-container {
+      display: flex;
+      align-items: center;
+      column-gap: 20px;
+  }
+  
+  .profile-picture {
+      width: 32px;
+      height: 32px;
+      object-fit: cover;
+      border-radius: 50%;
+  }
+  
+  
+  .profile-text-container {
+      display: flex;
+      align-items: center;
+      column-gap: 5px;
+      line-height: 1;
+  }
+  /* !Navbar Bitişi*/
+
+  /* Cv Şablonlarının Başlangıcı */
+  
+  .h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+
+  form {
+    margin-top: 150px;
+    background-color: aqua;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+
+  /* ! Cv Şablonlarının Bitişi */
+
+    /* footer start */
+:root {
+--github: #fff;
+--linkedin:#fff;
+--insta-pink : #c13584;
+--twitter-blue : #1da1f2;
+--yt-red : #f70000;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+width: 100%;
+height: 100vh;
+position: relative;
+}
+
+footer{
+ background-color: #ffffff;
+ color: #000000;
+ text-align: center;
+ width: 100%;
+ padding: 0 0 10px 0;
+margin-top: 15px;
+ bottom: 0;
+}
+
+footer p {
+padding: 15px 0;
+}
+
+.social-links {
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: large;
+}
+
+.social-links i {
+ padding: 10px;
+ color: #fff;
+}
+
+.social-links a :hover{
+transition: 0.4s;
+transform: rotateY('-5px');
+color: #000000 !important;
+scale:1.5;
+}
+
+
+/* footer end */
+
+
+  
