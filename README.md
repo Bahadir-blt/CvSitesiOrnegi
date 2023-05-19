@@ -5,6 +5,7 @@
 Haydi Başlayalım :
 
 İlk olarak navbar kısmını oluşturduk ;
+
 ![image](https://github.com/Bahadir-blt/CvSitesiOrnegi/assets/125299942/2421b70a-65a4-463b-b0c9-5e6ee4ad7b0e),
 
 Sonrasında Cv oluştururken olması gereken bilgileri bir tablo halinde oluşturduk ;
